@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcf2f1b-a693-4099-adbf-864a7f669eb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 04.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 04.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorcomp/AtomsphericSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorcomp/IDiscreteSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorcomp/IDiscreteSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorcomp/ISensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorcomp/ISensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorcomp/SensorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorcomp/SensorData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorcomp/WaterSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorcomp/WaterSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensors/AtomsphericSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensors/ISensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensors/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensors/SensorData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensors/TirePressureSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/WaterSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/WaterSensorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0bcf2f1b-a693-4099-adbf-864a7f669eb8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,11 +50,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676230185703</updated>
-      <workItem from="1676230186768" duration="311000" />
+      <workItem from="1676230186768" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="add java-doc">
+      <created>1676230786300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676230786300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add java-doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="add java-doc" />
   </component>
 </project>

@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
+
 import sensorcomp.SensorData;
 import sensorcomp.WaterSensor;
 
@@ -18,7 +19,7 @@ public class WaterSensorTest {
    * Set up waterSensor for testing.
    */
   @Before
-  public void setWaterSensor(){
+  public void setWaterSensor() {
     waterSensor = new WaterSensor();
   }
 
@@ -63,9 +64,6 @@ public class WaterSensorTest {
     assertFalse(status2);
 
   }
-
-
-
 
 
 }
