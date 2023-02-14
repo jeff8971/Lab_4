@@ -4,9 +4,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
+import sensorcomp.ISensor;
 import sensorcomp.SensorData;
 import sensorcomp.WaterSensor;
-
 
 /**
  * Test for class WaterSensor.
@@ -53,7 +53,7 @@ public class WaterSensorTest {
    * Test the setter of status of the waterSensor.
    */
   @Test
-  public void testSetter() {
+  public void testSetStatus() {
     waterSensor.setStatus(true);
     boolean status = waterSensor.status();
     assertTrue(status);
@@ -64,5 +64,36 @@ public class WaterSensorTest {
 
   }
 
+  /**
+   * Test method for checking to make sure that the get status method works as expected.
+   */
+  @Test
+  public void testGetStatus() {
+    // assert that the status method returns false
+    assertFalse(waterSensor.status());
+    // change the status of the water sensor
+    waterSensor.flipStatus();
+    // assert that the get status now returns the updated value
+    assertTrue(waterSensor.status());
+  }
+
+  /**
+   * Test method for checking the flip status.
+   */
+  @Test
+  public void testFlipStatus() {
+
+    // assert that the status method returns false
+    assertFalse(waterSensor.status());
+    // change the status of the water sensor
+    waterSensor.flipStatus();
+    // assert that the get status now returns the updated value
+    assertTrue(waterSensor.status());
+    // flip the status back to the original value
+    waterSensor.flipStatus();
+    // check to make sure that the status changed again
+    assertFalse(waterSensor.status());
+
+  }
 
 }
